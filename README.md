@@ -1,6 +1,8 @@
-==run nodemon =>> npx nodemon <name-file>=> app.js
+==== run nodemon =>> npx nodemon <name-file>=> app.js
 
 ==== npm install express backend ===> npm express
 
 ==== install nodemon ==>> npm nodemon
+
+command Startv ===>> npm start
 
