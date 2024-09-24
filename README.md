@@ -10,7 +10,11 @@ FIRST LEARN CREATE PROJEXT
 
 ==== command Start ===>> npm start
 
-=== command install squelize pg  dan postgress
+=== command install squelize  +++ >> pg/  dan postgress
+
+=== install squelize-cli (commant propt interface)
+
+=== cek squelize commant ===>> npx squelize
 
 
 
