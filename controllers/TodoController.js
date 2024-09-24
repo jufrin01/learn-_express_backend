@@ -1,10 +1,25 @@
 class TodoController {
+
     static getAllTodos(req,res) {
-    res.send('Page with all todos')
+        const arrObjeck = [
+            {
+                id: 1,
+                title: 'Task 1',
+                completed: false
+            },
+            {
+                id: 2,
+                title: 'Task 2',
+                completed: true
+            }
+        ]
+        res.json(arrObjeck)
     }
 
     static addTodo(req,res) {
-       res.send('Page to add new todo')
+        res.json({
+            message: 'pages Todos add',
+        })
     }
 }
 
