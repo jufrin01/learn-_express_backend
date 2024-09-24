@@ -10,9 +10,19 @@ FIRST LEARN CREATE PROJEXT
 
 ==== command Start ===>> npm start
 
+=== command install squelize pg  dan postgress
+
 
 
 WARNING !!!!
 
 NODEMON ialah semacam module di javascript biar mengAUto start suatu APPS/projeck
+
+squelize ialan orm javascrip  backend objeck
+
+documedn : https://sequelize.org/docs/v6/getting-started/
+
+
+
+
 
