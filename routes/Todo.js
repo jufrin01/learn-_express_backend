@@ -4,6 +4,6 @@
 
  todoRoute.get('/' , TodoController.getAllTodos)
 
- todoRoute.get('/add', TodoController.addTodo)
+ todoRoute.post('/add', TodoController.addTodo)
 
  module.exports = todoRoute

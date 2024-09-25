@@ -1,4 +1,4 @@
-+++FIRST LEARN CREATE PROJEXT++++
+9+++FIRST LEARN CREATE PROJEXT++++
 ==== CMD +++>> npm init -y
 
 ++ Install Module Yang Di perlukan++
@@ -25,14 +25,12 @@ buat saat run app tinggal comman npm start
 === Terus Lihat DB kita DBMS kita.. sesusai dengan user daan pass nya 
 
 +++step generaate model di squelize+++
-=== command ==> npx sequelize-cli model:generate --name <nama-model> --attributes <fields:tipe-datanya> , dss..
+=== command ==> npx sequelize-cli model:generate --name </nama-model\> --attributes </fields:tipe-datanya\> , dss..
 Tipe-data(STRING , INTEGER , BOOLEAN , CHAR , LONG , DOUBLE , DLL..)
 
 === kalau udah di generad akan ada muncul 2 file di folder migration dan model itu artinya udah di generated..
 === terus masukan migration Db nya dengan command ==> npx squelize-cli db:migrate
 === kalau udah cek di db apakan table udah muncul..
-
-
 
 
 

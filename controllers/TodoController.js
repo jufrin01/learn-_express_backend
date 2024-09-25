@@ -12,9 +12,18 @@ class TodoController {
     }
 
     static addTodo(req,res) {
-        res.json({
-            message: 'pages Todos add',
-        })
+        //desKtituring
+        const { task, status } = req.body;
+         Todo.create({ task, status, created_at: new Date(), updated_at: new Date() })
+             .then(result =>{
+                 res.json(result)
+                     .catch(err => {
+                         res.json(err)
+                     })
+             })
+      res.json({
+          task ,status
+      })
     }
 }
 
